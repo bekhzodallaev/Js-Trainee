@@ -187,5 +187,5 @@ list.push(20);
 list.push(30);
 list.push(40);
 
-console.log(list);
-console.log(list.reverse());
+// console.log(list);
+// console.log(list.reverse());

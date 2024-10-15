@@ -59,7 +59,7 @@ class Stack {
       arr.push(current.data);
       current = current.next;
     }
-    return arr;
+    return arr.reverse();
   }
 
   static fromIterable(iterable) {
@@ -82,6 +82,7 @@ stack.push(10);
 stack.push(20);
 stack.push(30);
 
+console.log(stack.toArray());
 // console.log(stack);
 // console.log(stack.peek());
 // console.log(stack.toArray());

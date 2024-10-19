@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  color: white;
+  background-color: blueviolet;
+  padding: 0.5rem 1.5rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(103, 22, 179);
+}
+.btn:active {
+  background-color: rgb(134, 75, 189);
+  transform: translateY(4px);
+}

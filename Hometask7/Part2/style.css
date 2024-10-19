@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.parent_container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  background: linear-gradient(rgb(252, 70, 107), rgb(63, 94, 251));
+}
+
+h1 span {
+  color: #9249b4;
+}
+h1 {
+  margin-bottom: 1rem;
+}
+.stopwatch_clock {
+  font-size: 2rem;
+}
+.stopwatch_container,
+.timer_container {
+  background-color: #494d5f;
+  padding: 3rem;
+  border-radius: 1rem;
+  color: #e5eaf5;
+}
+.btns {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.btns button {
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  margin-top: 3rem;
+  color: white;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+.btns button:active {
+  transform: translateY(4px);
+}
+
+.btns .start_btn {
+  background-color: #198754;
+}
+.btns .pause_btn {
+  background-color: #dc3545;
+}
+.btns .reset_btn {
+  background-color: #0d6efd;
+}
+.btns .reset_btn:disabled {
+  background-color: #588bd8;
+}
+.btns .pause_btn:disabled {
+  background-color: #df737e;
+}
+.btns .start_btn:disabled {
+  background-color: #6fc99f;
+}
+input {
+  margin-top: 2rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 0.3rem;
+}
+.add_timer_btn {
+  color: white;
+  background-color: #871987;
+  padding: 0.3rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.add_timer_btn:active {
+  transform: translateY(4px);
+}
+.controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.controls button {
+  width: 100px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 0.3rem;
+}
+.controls button:active {
+  transform: translateY(4px);
+}
+#startTimer {
+  background-color: #198754;
+  color: white;
+}
+#resetTimer {
+  background-color: #0d6efd;
+  color: white;
+}
+#startTimer:disabled {
+  background-color: #6fc99f;
+}
+
+#resetTimer:disabled {
+  background-color: #588bd8;
+}

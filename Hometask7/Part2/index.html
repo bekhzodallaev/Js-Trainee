@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Timer and Stopwatch</title>
+  </head>
+  <body>
+    <div class="parent_container">
+      <div class="stopwatch_container">
+        <h1><span>Stopwatch</span> ⏱️</h1>
+        <div class="stopwatch_clock">00 : 00 : 00</div>
+        <div class="btns">
+          <button class="start_btn">Start</button>
+          <button class="pause_btn">Pause</button>
+          <button class="reset_btn">Reset</button>
+        </div>
+      </div>
+      <div class="timer_container">
+        <h1><span>Timer</span> ⏳</h1>
+        <div class="stopwatch_clock timer">00 : 00 : 00</div>
+        <div class="controls">
+          <input type="number" id="timeInput" placeholder="Enter Seconds" />
+
+          <div class="controllers">
+            <button id="startTimer">Start Timer</button>
+            <button id="resetTimer" disabled>Reset Timer</button>
+          </div>
+          <div class="time_adder">
+            <button id="plus1Minute">+1 Minute</button>
+            <button id="plus10Seconds">+10 Seconds</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
